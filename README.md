@@ -1,5 +1,4 @@
 # redditemotegenerator
-I don't know if this goes here or not *Sorry if it doesn't*
 
 Yes, I know emojis are cancer. But what if subreddits could have their own emojis?
 
