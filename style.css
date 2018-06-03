@@ -1,0 +1,126 @@
+body {
+	font-family: 'Quicksand',
+			-apple-system,
+			BlinkMacSystemFont,
+			"Segoe UI",
+			Roboto,
+			"Helvetica Neue",
+			Arial,
+			sans-serif,
+			"Apple Color Emote",
+			"Segoe UI Emote",
+			"Segoe UI Symbol" !important;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+ol li {
+  font-size: 1.3em;
+}
+
+.stillpaper {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+	border: none;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	background-image: url("./img/wallpaper.png");
+	background-size: 100%;
+}
+
+.imgEntry {
+	width: 32px;
+	height: 32px;
+  margin: 10px;
+}
+
+#emoteSheet {
+  margin: 10px;
+  border: 4px solid black;
+}
+
+#canvasEmotes {
+  display: none;
+}
+
+.emoteEntry input {
+  border: none;
+}
+
+.code-block {
+  color: white;
+  background-color: #2f3136;
+  border: 4px solid #282b30;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: monospace;
+}
+
+#getCSS {
+	width: 49%;
+}
+
+#downloadEmotes {
+	width: 49%;
+}
+
+#uploadedEmotes {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: 1.3em;
+}
+
+#uploadedEmotes th, #uploadedEmotes td {
+	border: 1px solid black;
+}
+
+#uploadEmote {
+	position: relative;
+	bottom: 125px;
+	float: right;
+	width: 25%;
+}
+
+#uploadEmotepreset {
+  position: relative;
+  left: 25%;
+	bottom: 75px;
+	float: right;
+	width: 25%;
+}
+
+#downloadEmotepreset {
+  position: relative;
+  left: 50%;
+	bottom: 25px;
+	float: right;
+	width: 25%;
+}
+
+#uploadEmoteInput {
+	display: none;
+}
+
+#uploadEmotepresetInput {
+	display: none;
+}
+
+.modal-header {
+	margin: 0 auto;
+	border: none !important;
+}
+
+@media (min-width: 576px){
+	.modal-dialog {
+		max-width: 1000px !important;
+		margin: 1.75rem auto !important;
+	}
+}
