@@ -1,3 +1,12 @@
+window.onerror = function(error, url, line) {
+  errors += `
+    ${error} on line ${line}
+`;
+  console.log( `
+    ${error} on line ${line}
+`);
+};
+
 var canvas = document.getElementById("canvasEmotes");
 
 var ctx = canvas.getContext("2d");
@@ -8,9 +17,17 @@ var emoteCSS = "";
 
 var emotes = [];
 
+var errors = "\n";
+
 $("#uploadEmote").click(function(e){
 	$("#uploadEmoteInput").click();
 	e.preventDefault();
+});
+
+$("#bugReport").click(function(){
+  window.open("https://www.reddit.com/message/compose?to=-Electron-&subject=Reddit+Emote+Generator+Bug%20&message=Hello+-Electron-,\n\n"
+              + "%0A%0AWhat+I+was+doing+was%3A%0A%0A...%0A%0AAnd then this happened%3A%0A"
+              + encodeURIComponent(errors));
 });
 
 $("#uploadEmoteInput").on("change", function(e){
