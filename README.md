@@ -14,4 +14,4 @@ Reddit Emoji Generator (**REG**) is a website that generates custom CSS and spri
 
 Optional: Download the preset to be able to edit the emojis later
 
-***☁️MAKE YOUR MEMES A REALITY☁️*** --> https://streamlyne.stream/redditemojigenerator/
+***☁️MAKE YOUR MEMES A REALITY☁️*** --> https://parretlabs.github.io/redditemotegenerator/
